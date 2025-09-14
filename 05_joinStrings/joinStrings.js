@@ -10,7 +10,17 @@
 // Add your code right below, good luck!
 
 
+//"Hello! My name is Carlos Stevenson and I am 18 years old."
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
 
+let fullName = firstName + " " + lastName;
+let age = thisYear - birthYear;
+
+const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + age + " years old.";
+console.log(greeting);
 
 
 // Do not change this
